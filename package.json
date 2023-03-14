@@ -1,0 +1,24 @@
+{
+  "name": "mens-health",
+  "description": "Mens Health Website",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch build/style.scss style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneRaynerNZ/mens-health.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneRaynerNZ/mens-health/issues"
+  },
+  "homepage": "https://github.com/EugeneRaynerNZ/mens-health#readme",
+  "dependencies": {
+    "sass": "^1.59.2"
+  }
+}

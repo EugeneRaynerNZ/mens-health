@@ -1,0 +1,75 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.band {
+  background: red;
+  width: 100%;
+}
+.band nav {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.band nav .navigation--item {
+  margin-left: 16px;
+  color: white;
+  position: relative;
+}
+.band nav .navigation--item:after {
+  content: " ";
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: width 2s;
+}
+.band nav .navigation--item:hover:after {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+header .heading {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home section {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home--box {
+  background: blue;
+  width: calc(50% - 15px);
+  height: 450px;
+  margin: 15px;
+}
+.home--box:nth-child(odd) {
+  margin-left: 0;
+}
+.home--box:nth-child(even) {
+  margin-right: 0;
+}
+
+nav {
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
